@@ -3,3 +3,6 @@ https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/06-best-practices
 
 ### badges are done using shields
 https://shields.io/badges/static-badge
+
+### if you don't want pre commit hooks then
+execute 'pre-commit uninstall' in the root directory
