@@ -1,0 +1,5 @@
+### Pre commit hooks
+https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/06-best-practices
+
+### badges are done using shields
+https://shields.io/badges/static-badge

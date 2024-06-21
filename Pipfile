@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+python-dotenv = "*"
+pinecone-client = "*"
+pandas = "*"
+sentence-transformers = "*"
+langchain = "*"
+langchain-pinecone = "*"
+langchain-community = "*"
+llama-index-core = "*"
+llama-hub = "*"
+llama-index = "*"
+better-profanity = "*"
+llama-index-llms-langchain = "*"
+llama-index-embeddings-huggingface = "*"
+black = "*"
+isort = "*"
+pylint = "*"
+pre-commit = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
