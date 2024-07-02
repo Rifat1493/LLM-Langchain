@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center">RAG based Question-Answering Application</h1>
+<h1 align="center">RAG Application With Python Agent</h1>
 
 [![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 ![langchain](https://img.shields.io/badge/Langchain-0.2.5-EE4C2C?style=flat&logo=langchain&link=https%3A%2F%2Fwww.langchain.com%2F)
@@ -19,8 +19,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
-
+![img](doc/architecture.png)
 ## Key Features
 
 * LivePreview - Make changes, See changes

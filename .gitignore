@@ -1,2 +1,6 @@
 practice/
 dev.env
+__pycache__/
+llm_src/__pycache__
+tests.py
+test.ipynb
