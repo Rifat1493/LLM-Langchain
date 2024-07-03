@@ -15,4 +15,11 @@ def determine_route(query, route_executor, pandas_executor, doc_executor):
             return result
 
     else:
-        return doc_executor.invoke(query)
+        # return doc_executor.invoke(query)
+        result = doc_executor.invoke(
+            {"input": query},
+            config={"configurable": {"session_id": "abc123"}},
+        )["answer"]
+
+        return result
+

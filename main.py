@@ -8,8 +8,8 @@ def play_rag():
 
     route_executor = run_executors.get_route_executor()
     pandas_executor = run_executors.get_pandas_executor()
-    doc_executor = run_executors.get_doc_executor()
-
+    # doc_executor = run_executors.get_doc_executor()
+    doc_executor = run_executors.get_doc_executor_history()
     while True:
         user_input = input("Enter something (type 'exit' to quit): ")
         if user_input.lower() == 'exit':
